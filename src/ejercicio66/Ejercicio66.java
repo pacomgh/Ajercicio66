@@ -27,10 +27,9 @@ public class Ejercicio66 {
     }
     
     public void datos(){
-        Pizarra p = new Pizarra();
+        
         String v, res;
         int i=0, numero=0;
-        p.setVisible(true);        
         
         
         //if(bandera){
@@ -94,6 +93,7 @@ public class Ejercicio66 {
             invertido.datos();            
             invertido.rellenar();            
             invertido.calculos();        
+            invertido.ver();
             invertido.resultados();
             String res = invertido.d.readString("Deseas invertir mas arreglos? s/n");
             res = res.toLowerCase();
